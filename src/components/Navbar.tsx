@@ -16,18 +16,28 @@ export default function Navbar() {
           </button>
           
           <div className="hidden lg:flex space-x-8">
-            <a href="#" className="text-sm hover:opacity-50 transition-opacity">SHOP</a>
-            <a href="#" className="text-sm hover:opacity-50 transition-opacity">COLLECTIONS</a>
+            <a href="#" className="text-sm hover:opacity-50 transition-opacity">FEAR OF GOD</a>
             <a href="#" className="text-sm hover:opacity-50 transition-opacity">ESSENTIALS</a>
+            <a href="#" className="text-sm hover:opacity-50 transition-opacity">ATHLETICS</a>
           </div>
 
-          <a href="/" className="text-2xl font-light tracking-widest">ESSENTIALS</a>
-
+          <a href="/" className="text-2xl font-bold tracking-widest">SON OF GOD</a>
+          {/* Updated for desktop view */}
           <div className="flex items-center space-x-6">
-            <button className="hover:opacity-50 transition-opacity">
+            <span className={`hidden lg:block text-sm hover:opacity-50 transition-opacity`}>
+              SEARCH
+            </span>
+            <span className={`hidden lg:block text-sm hover:opacity-50 transition-opacity`}>
+              ACCOUNT
+            </span>
+            <span className={`hidden lg:block text-sm hover:opacity-50 transition-opacity`}>
+              CART
+            </span>
+            {/* Mobile view */}
+            <button className="lg:hidden hover:opacity-50 transition-opacity">
               <Search size={20} />
             </button>
-            <button className="hover:opacity-50 transition-opacity">
+            <button className="lg:hidden hover:opacity-50 transition-opacity">
               <ShoppingBag size={20} />
             </button>
           </div>
@@ -38,9 +48,9 @@ export default function Navbar() {
       {isMenuOpen && (
         <div className="lg:hidden absolute top-full left-0 right-0 bg-white border-t">
           <div className="p-4 space-y-4">
-            <a href="#" className="block text-sm hover:opacity-50 transition-opacity">SHOP</a>
-            <a href="#" className="block text-sm hover:opacity-50 transition-opacity">COLLECTIONS</a>
+            <a href="#" className="block text-sm hover:opacity-50 transition-opacity">FEAR OF GOD</a>
             <a href="#" className="block text-sm hover:opacity-50 transition-opacity">ESSENTIALS</a>
+            <a href="#" className="block text-sm hover:opacity-50 transition-opacity">ATHLETICS</a>
           </div>
         </div>
       )}
