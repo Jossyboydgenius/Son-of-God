@@ -15,3 +15,16 @@
     @apply font-body text-black;
   }
 }
+
+/* Custom styles for the newsletter heading */
+.newsletter-heading {
+  font-family: 'Optima', Optima, sans-serif;
+  font-size: 20px;
+  color: #000000;
+  line-height: 25px;
+  font-weight: 400;
+  text-decoration: none;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin-bottom: 1.5rem; /* Adjust margin as needed */
+}
