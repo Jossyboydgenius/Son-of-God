@@ -1,12 +1,12 @@
 import React from 'react';
 
-export function Newsletter() {
+export function Footer() {
   return (
     <div className="py-24 px-4">
       <div className="max-w-screen-lg mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-24">
           <div>
-            <h3 className="newsletter-heading text-left">Join the conversation</h3>
+            <h3 className="footer-heading text-left">Join the conversation</h3>
             <div className="flex border-b border-black">
               <input
                 type="email"
