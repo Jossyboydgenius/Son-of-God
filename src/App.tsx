@@ -2,7 +2,7 @@ import React from 'react';
 import { Header } from './components/layout/Header';
 import { Carousel } from './components/home/Carousel';
 import { CategoryGrid } from './components/home/CategoryGrid';
-import { Newsletter } from './components/home/Newsletter';
+import { Newsletter } from './components/home/Footer';
 
 function App() {
   return (
