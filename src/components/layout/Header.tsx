@@ -25,10 +25,10 @@ export function Header() {
             <button className="lg:hidden text-current">
               <Menu size={20} />
             </button>
-            <nav className="hidden lg:flex space-x-12">
-              <Link href="/son-of-god" color={isScrolled ? 'black' : 'white'}>SON OF GOD</Link>
-              <Link href="/essentials" color={isScrolled ? 'black' : 'white'}>ESSENTIALS</Link>
-              <Link href="/athletics" color={isScrolled ? 'black' : 'white'}>ESSENTIALS</Link>
+            <nav className="hidden lg:flex space-x-4">
+              <Link href="/son-of-god" color={isScrolled ? 'black' : 'white'} className="text-xs font-normal">CHILD OF GOD</Link>
+              <Link href="/essentials" color={isScrolled ? 'black' : 'white'} className="text-xs font-normal">ESSENTIALS</Link>
+              <Link href="/athletics" color={isScrolled ? 'black' : 'white'} className="text-xs font-normal">ATHLETICS</Link>
             </nav>
           </div>
 
@@ -42,13 +42,13 @@ export function Header() {
           </Link>
 
           <div className="flex items-center space-x-6">
-            <span className={`hidden lg:block text-sm hover:opacity-50 transition-opacity ${
+            <span className={`hidden lg:block text-xs font-normal hover:opacity-50 transition-opacity ${
               isScrolled ? 'text-black' : 'text-white'
             }`}>SEARCH</span>
-            <span className={`hidden lg:block text-sm hover:opacity-50 transition-opacity ${
+            <span className={`hidden lg:block text-xs font-normal hover:opacity-50 transition-opacity ${
               isScrolled ? 'text-black' : 'text-white'
             }`}>ACCOUNT</span>
-            <span className={`hidden lg:block text-sm hover:opacity-50 transition-opacity ${
+            <span className={`hidden lg:block text-xs font-normal hover:opacity-50 transition-opacity ${
               isScrolled ? 'text-black' : 'text-white'
             }`}>CART</span>
             <button className={`lg:hidden hover:opacity-50 transition-opacity ${
