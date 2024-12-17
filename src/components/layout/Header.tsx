@@ -25,7 +25,7 @@ export function Header() {
             <button className="lg:hidden text-current">
               <Menu size={20} />
             </button>
-            <nav className="hidden lg:flex space-x-4">
+            <nav className="hidden lg:flex space-x-5">
               <Link href="/son-of-god" color={isScrolled ? 'black' : 'white'} className="text-xs font-normal">CHILD OF GOD</Link>
               <Link href="/essentials" color={isScrolled ? 'black' : 'white'} className="text-xs font-normal">ESSENTIALS</Link>
               <Link href="/athletics" color={isScrolled ? 'black' : 'white'} className="text-xs font-normal">ATHLETICS</Link>
@@ -34,7 +34,7 @@ export function Header() {
 
           <Link 
             href="/" 
-            className={`absolute left-1/2 -translate-x-1/2 font-heading text-2xl font-bold tracking-[0.2em] ${
+            className={`absolute left-1/2 -translate-x-1/2 font-heading text-xl font-extrabold tracking-[0.2em] ${
               isScrolled ? 'text-black' : 'text-white'
             }`}
           >
