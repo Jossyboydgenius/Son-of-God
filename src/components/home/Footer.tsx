@@ -13,7 +13,7 @@ export function Footer() {
                 placeholder="EMAIL ADDRESS"
                 className="flex-1 py-2 text-sm focus:outline-none"
               />
-              <button className="py-1 px-4 text-xl">→</button>
+              <button className="py-1 px-0 text-xl">→</button>
             </div>
           </div>
           <div className="space-y-12">
