@@ -1,0 +1,12 @@
+/* Font imports */
+@font-face {
+  font-family: 'FuturaBold';
+  src: url('https://db.onlinewebfonts.com/t/c5fc2b05949b051c07482453e8e0c1e6.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaNowDisplay';
+  src: url('https://db.onlinewebfonts.com/t/9b06ae83a4412168ef52d4a1c10d2232.woff2') format('woff2');
+  font-display: swap;
+}

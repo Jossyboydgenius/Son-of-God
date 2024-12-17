@@ -1,0 +1,7 @@
+@import './styles/fonts.css';
+@import './styles/theme.css';
+@import './styles/transitions.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

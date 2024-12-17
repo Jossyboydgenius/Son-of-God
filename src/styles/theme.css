@@ -1,0 +1,17 @@
+/* Base theme configuration */
+@layer base {
+  :root {
+    --font-heading: 'FuturaBold', system-ui, -apple-system, sans-serif;
+    --font-body: 'HelveticaNowDisplay', system-ui, -apple-system, sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  body {
+    @apply font-body text-black;
+  }
+}
