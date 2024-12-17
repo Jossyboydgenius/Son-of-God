@@ -2,7 +2,7 @@
 @layer base {
   :root {
     --font-heading: 'FuturaBold', system-ui, -apple-system, sans-serif;
-    --font-body: 'HelveticaNowDisplay', system-ui, -apple-system, sans-serif;
+    --font-body: 'FuturaBold', system-ui, -apple-system, sans-serif;
   }
 
   html {
@@ -19,12 +19,5 @@
 /* Custom styles for the Footer heading */
 .footer-heading {
   font-family: 'Optima', Optima, sans-serif;
-  font-size: 20px;
-  color: #000000;
-  line-height: 25px;
-  font-weight: 400;
-  text-decoration: none;
-  letter-spacing: normal;
-  word-spacing: 0px;
-  margin-bottom: 1.5rem; /* Adjust margin as needed */
+  line-height: 15px;
 }
