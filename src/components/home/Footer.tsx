@@ -13,16 +13,15 @@ export function Footer() {
                 placeholder="EMAIL ADDRESS"
                 className="flex-1 py-2 text-sm focus:outline-none"
               />
-               <button className="py-1 px-0 text-xl">→</button>
+              <button className="py-1 px-4 text-xl">→</button>
             </div>
           </div>
-
           <div className="space-y-12">
-            <div className="flex space-x-6">
-              <a href="/contact" className="text-sm hover:opacity-50">CONTACT</a>
-              <a href="/client-services" className="text-sm hover:opacity-50">CLIENT SERVICES</a>
-              <a href="/legal-notices" className="text-sm hover:opacity-50">LEGAL NOTICES</a>
-              <a href="/social" className="text-sm hover:opacity-50">SOCIAL</a>
+             <div className="flex flex-col md:flex-row md:space-x-6 text-xs font-medium">
+              <a href="/contact" className="hover:opacity-50 mb-2 md:mb-0">CONTACT</a>
+              <a href="/client-services" className="hover:opacity-50 mb-2 md:mb-0">CLIENT SERVICES</a>
+              <a href="/legal-notices" className="hover:opacity-50 mb-2 md:mb-0">LEGAL NOTICES</a>
+              <a href="/social" className="hover:opacity-50">SOCIAL</a>
             </div>
           </div>
         </div>
