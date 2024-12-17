@@ -6,7 +6,7 @@ export function Newsletter() {
       <div className="max-w-screen-lg mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-24">
           <div>
-            <h3 className="text-sm font-medium mb-6">JOIN THE CONVERSATION</h3>
+            <h3 className="newsletter-heading text-left">Join the conversation</h3>
             <div className="flex border-b border-black">
               <input
                 type="email"
@@ -18,22 +18,11 @@ export function Newsletter() {
           </div>
 
           <div className="space-y-12">
-            <div>
-              <h3 className="text-sm font-medium mb-4">CLIENT SERVICES</h3>
-              <div className="space-y-3">
-                <a href="/contact" className="block text-sm hover:opacity-50">CONTACT</a>
-                <a href="/shipping" className="block text-sm hover:opacity-50">SHIPPING</a>
-                <a href="/returns" className="block text-sm hover:opacity-50">RETURNS</a>
-              </div>
-            </div>
-
-            <div>
-              <h3 className="text-sm font-medium mb-4">FOLLOW US</h3>
-              <div className="space-y-3">
-                <a href="/instagram" className="block text-sm hover:opacity-50">INSTAGRAM</a>
-                <a href="/facebook" className="block text-sm hover:opacity-50">FACEBOOK</a>
-                <a href="/twitter" className="block text-sm hover:opacity-50">TWITTER</a>
-              </div>
+            <div className="flex space-x-6">
+              <a href="/contact" className="text-sm hover:opacity-50">CONTACT</a>
+              <a href="/client-services" className="text-sm hover:opacity-50">CLIENT SERVICES</a>
+              <a href="/legal-notices" className="text-sm hover:opacity-50">LEGAL NOTICES</a>
+              <a href="/social" className="text-sm hover:opacity-50">SOCIAL</a>
             </div>
           </div>
         </div>
