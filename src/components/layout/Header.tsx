@@ -28,13 +28,13 @@ export function Header() {
             <nav className="hidden lg:flex space-x-12">
               <Link href="/son-of-god" color={isScrolled ? 'black' : 'white'}>SON OF GOD</Link>
               <Link href="/essentials" color={isScrolled ? 'black' : 'white'}>ESSENTIALS</Link>
-              <Link href="/athletics" color={isScrolled ? 'black' : 'white'}>ATHLETICS</Link>
+              <Link href="/athletics" color={isScrolled ? 'black' : 'white'}>ESSENTIALS</Link>
             </nav>
           </div>
 
           <Link 
             href="/" 
-            className={`absolute left-1/2 -translate-x-1/2 font-heading text-lg tracking-[0.2em] ${
+            className={`absolute left-1/2 -translate-x-1/2 font-heading text-2xl font-bold tracking-[0.2em] ${
               isScrolled ? 'text-black' : 'text-white'
             }`}
           >
@@ -42,12 +42,21 @@ export function Header() {
           </Link>
 
           <div className="flex items-center space-x-6">
-            <button className={`hover:opacity-50 transition-opacity ${
+            <span className={`hidden lg:block text-sm hover:opacity-50 transition-opacity ${
+              isScrolled ? 'text-black' : 'text-white'
+            }`}>SEARCH</span>
+            <span className={`hidden lg:block text-sm hover:opacity-50 transition-opacity ${
+              isScrolled ? 'text-black' : 'text-white'
+            }`}>ACCOUNT</span>
+            <span className={`hidden lg:block text-sm hover:opacity-50 transition-opacity ${
+              isScrolled ? 'text-black' : 'text-white'
+            }`}>CART</span>
+            <button className={`lg:hidden hover:opacity-50 transition-opacity ${
               isScrolled ? 'text-black' : 'text-white'
             }`}>
               <Search size={20} />
             </button>
-            <button className={`hover:opacity-50 transition-opacity ${
+            <button className={`lg:hidden hover:opacity-50 transition-opacity ${
               isScrolled ? 'text-black' : 'text-white'
             }`}>
               <ShoppingBag size={20} />
